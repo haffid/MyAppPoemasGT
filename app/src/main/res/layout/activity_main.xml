@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imgFlag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:src="@drawable/ic_flag" />
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgFlag"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:text="Poemas GT"
+        android:textColor="#2196F3"
+        android:textSize="40sp" />
+
+    <Button
+        android:id="@+id/btnCat1"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_below="@id/txtTitulo"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="30sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="#2196F3"
+        android:onClick="pulsar"
+        android:text="Miguel Ángel Asturias"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCat2"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_below="@id/btnCat1"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="#2196F3"
+        android:onClick="pulsar"
+        android:text="José Batres Montúfar"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnCat3"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:layout_below="@id/btnCat2"
+        android:layout_marginLeft="30sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginRight="30sp"
+        android:backgroundTint="#2196F3"
+        android:onClick="pulsar"
+        android:text="Humberto Ak’abal"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnCat3"
+        android:layout_marginTop="40sp"
+        android:text="Omar Haffid Espina Sarceño"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+
+</RelativeLayout>
